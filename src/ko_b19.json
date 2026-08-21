@@ -1,0 +1,1677 @@
+{
+"c2:96:0": {
+"ko": "우리 가족은 힘든 시기에 늘 서로를 지지해요.",
+"c": [
+[
+"우리 가족은 늘 지지해요",
+"My family always supports",
+"always support"
+],
+[
+"서로를",
+"each other",
+"each other"
+],
+[
+"힘든 시기에",
+"during tough times",
+"during tough times"
+]
+]
+},
+"c2:96:1": {
+"ko": "교수진은 다음 학기 교과 과정 변경을 논의하고 있어요.",
+"c": [
+[
+"그 교수진은 논의하고 있어요",
+"The faculty is discussing",
+"be discussing"
+],
+[
+"교과 과정 변경을",
+"curriculum changes",
+"curriculum changes"
+],
+[
+"다음 학기를 위한",
+"for the next semester",
+"for the next semester"
+]
+]
+},
+"c2:96:2": {
+"ko": "배심원단은 며칠간의 심의 끝에 평결을 내려요.",
+"c": [
+[
+"그 배심원단은 내려요",
+"The jury delivers",
+"deliver"
+],
+[
+"그 평결을",
+"the verdict",
+"the verdict"
+],
+[
+"며칠간의 심의 후에",
+"after several days of deliberation",
+"after several days of deliberation"
+]
+]
+},
+"c2:96:3": {
+"ko": "위원회는 모든 선택지를 검토한 뒤 최종 결정을 내리고 있어요.",
+"c": [
+[
+"그 위원회는 내리고 있어요",
+"The committee is making",
+"be making"
+],
+[
+"최종 결정을",
+"a final decision",
+"a final decision"
+],
+[
+"모든 선택지를 검토한 후에",
+"after reviewing all the options",
+"after reviewing all the options"
+]
+]
+},
+"c2:96:4": {
+"ko": "그 팀은 챔피언십 경기에서 유난히 잘하고 있어요.",
+"c": [
+[
+"그 팀은 하고 있어요",
+"The team is playing",
+"be playing"
+],
+[
+"유난히 잘",
+"exceptionally well",
+"exceptionally well"
+],
+[
+"그 챔피언십 경기에서",
+"in the championship game",
+"in the championship game"
+]
+]
+},
+"c2:96:5": {
+"ko": "직원들은 이번 주말에 열리는 큰 행사를 준비하고 있어요.",
+"c": [
+[
+"그 직원들은 준비하고 있어요",
+"The staff is preparing",
+"be preparing"
+],
+[
+"그 큰 행사를",
+"for the big event",
+"for the big event"
+],
+[
+"이번 주말에 열리는",
+"happening this weekend",
+"happening this weekend"
+]
+]
+},
+"c2:96:6": {
+"ko": "관객들은 공연이 시작되기를 간절히 기다리고 있었어요.",
+"c": [
+[
+"그 관객은 기다리고 있었어요",
+"The audience was waiting",
+"be waiting"
+],
+[
+"간절히",
+"eagerly",
+"eagerly"
+],
+[
+"그 공연이 시작되기를",
+"for the show to begin",
+"for the show to begin"
+]
+]
+},
+"c2:96:7": {
+"ko": "우리 가족은 주말에 함께 시간 보내는 걸 즐겨요.",
+"c": [
+[
+"우리 가족은 즐겨요",
+"My family enjoys",
+"enjoy"
+],
+[
+"함께 시간 보내는 것을",
+"spending time together",
+"spending time together"
+],
+[
+"주말에",
+"on weekends",
+"on weekends"
+]
+]
+},
+"c2:96:8": {
+"ko": "군중은 홈팀을 향해 크게 환호하고 있어요.",
+"c": [
+[
+"그 군중은 환호하고 있어요",
+"The crowd is cheering",
+"be cheering"
+],
+[
+"크게",
+"loudly",
+"loudly"
+],
+[
+"그 홈팀을 위해",
+"for the home team",
+"for the home team"
+]
+]
+},
+"c2:96:9": {
+"ko": "이사회는 회사의 향후 전략을 논의하고 있어요.",
+"c": [
+[
+"그 이사회는 논의하고 있어요",
+"The board of directors is discussing",
+"be discussing"
+],
+[
+"그 회사의 향후 전략을",
+"the company’s future strategy",
+"the company’s future strategy"
+]
+]
+},
+"c2:96:10": {
+"ko": "해가 지는 동안 오리 떼가 호수 위를 날고 있어요.",
+"c": [
+[
+"오리 떼가 날고 있어요",
+"A flock of ducks is flying",
+"be flying"
+],
+[
+"그 호수 위를",
+"over the lake",
+"over the lake"
+],
+[
+"해가 지는 동안",
+"as the sun sets",
+"as the sun sets"
+]
+]
+},
+"c2:96:11": {
+"ko": "양 떼가 풀이 무성한 언덕을 천천히 가로질러 가고 있어요.",
+"c": [
+[
+"양 떼가 움직이고 있어요",
+"A herd of sheep is moving",
+"be moving"
+],
+[
+"천천히",
+"slowly",
+"slowly"
+],
+[
+"풀이 무성한 언덕을 가로질러",
+"across the grassy hillside",
+"across the grassy hillside"
+]
+]
+},
+"c2:96:12": {
+"ko": "물고기 떼가 포식자를 피해 해안 가까이에서 헤엄쳐요.",
+"c": [
+[
+"물고기 떼가 헤엄쳐요",
+"A school of fish swims",
+"swim"
+],
+[
+"해안 가까이에서",
+"close to the shore",
+"close to the shore"
+],
+[
+"포식자를 피하며",
+"avoiding predators",
+"avoiding predators"
+]
+]
+},
+"c2:96:13": {
+"ko": "이 진토닉은 긴 하루 뒤에 쉬기에 딱이에요.",
+"c": [
+[
+"이 진토닉은 딱이에요",
+"This gin and tonic is perfect",
+"be perfect"
+],
+[
+"쉬기에",
+"for relaxing",
+"for relaxing"
+],
+[
+"긴 하루 후에",
+"after a long day",
+"after a long day"
+]
+]
+},
+"c2:96:14": {
+"ko": "베이컨과 달걀은 많은 가정에서 흔한 아침 식사예요.",
+"c": [
+[
+"베이컨과 달걀은 ~예요",
+"Bacon and eggs is",
+"be"
+],
+[
+"흔한 아침 식사",
+"a common breakfast",
+"a common breakfast"
+],
+[
+"많은 가정에서",
+"in many households",
+"in many households"
+]
+]
+},
+"c2:96:15": {
+"ko": "스파게티와 미트볼이 오늘 그 식당의 저녁 특선이에요.",
+"c": [
+[
+"스파게티와 미트볼이 ~예요",
+"Spaghetti and meatballs is",
+"be"
+],
+[
+"오늘 밤의 저녁 특선",
+"tonight’s dinner special",
+"tonight’s dinner special"
+],
+[
+"그 식당에서",
+"at the restaurant",
+"at the restaurant"
+]
+]
+},
+"c2:96:16": {
+"ko": "그 팀은 이번 주말 다가오는 대회를 준비하고 있어요.",
+"c": [
+[
+"그 팀은 준비하고 있어요",
+"The team is preparing",
+"be preparing"
+],
+[
+"다가오는 대회를",
+"for the upcoming competition",
+"for the upcoming competition"
+],
+[
+"이번 주말",
+"this weekend",
+"this weekend"
+]
+]
+},
+"c2:96:17": {
+"ko": "직원들은 모든 게 제때 준비되도록 야근하고 있어요.",
+"c": [
+[
+"그 직원들은 야근하고 있어요",
+"The staff is working overtime",
+"be working overtime"
+],
+[
+"모든 게 제때 준비되도록 확실히 하려고",
+"to ensure everything is ready on time",
+"ensure everything is ready on time"
+]
+]
+},
+"c2:96:18": {
+"ko": "표가 빠르게 매진되고 있고, 관중은 팀의 경기를 보며 들뜰 것으로 예상돼요.",
+"c": [
+[
+"표가 매진되고 있어요",
+"Tickets are selling out",
+"be selling out"
+],
+[
+"빠르게",
+"fast",
+"fast"
+],
+[
+"그리고 그 관중은 예상돼요",
+"and the crowd is expected",
+"be expected"
+],
+[
+"들뜰 것으로",
+"to be excited",
+"be excited"
+],
+[
+"그 팀의 경기를 보며",
+"to see the team’s performance",
+"see the team’s performance"
+]
+]
+},
+"c2:96:19": {
+"ko": "위원회는 팀이 대회에서 이길 경우를 대비해 축하 행사를 준비해 뒀어요.",
+"c": [
+[
+"그 위원회는 준비했어요",
+"The committee has organized",
+"have organized"
+],
+[
+"축하 행사를",
+"a celebration",
+"a celebration"
+],
+[
+"그 팀을 위해",
+"for the team",
+"for the team"
+],
+[
+"그들이 그 대회에서 이길 경우에 대비해",
+"in case they win the competition",
+"in case they win the competition"
+]
+]
+},
+"c2:97:0": {
+"ko": "버스가 늦는데도 여러 사람이 역에서 참을성 있게 기다리고 있어요.",
+"c": [
+[
+"여러 사람이 기다리고 있어요",
+"A number of people are waiting",
+"be waiting"
+],
+[
+"참을성 있게",
+"patiently",
+"patiently"
+],
+[
+"그 버스를",
+"for the bus",
+"for the bus"
+],
+[
+"역에서",
+"at the station",
+"at the station"
+],
+[
+"그것이 늦는데도",
+"even though it’s running late",
+"even though it’s running late"
+]
+]
+},
+"c2:97:1": {
+"ko": "오늘 저녁에 친구 두어 명이 저녁 먹으러 와요.",
+"c": [
+[
+"내 친구 두어 명이 와요",
+"A couple of my friends are coming over",
+"be coming over"
+],
+[
+"저녁 먹으러",
+"for dinner",
+"for dinner"
+],
+[
+"오늘 밤",
+"tonight",
+"tonight"
+]
+]
+},
+"c2:97:2": {
+"ko": "많은 사회 문제가 경제적 불평등에서 비롯돼요.",
+"c": [
+[
+"많은 사회 문제가 초래돼요",
+"A lot of social problems are caused",
+"be caused"
+],
+[
+"경제적 불평등에 의해",
+"by economic inequality",
+"by economic inequality"
+]
+]
+},
+"c2:97:3": {
+"ko": "우리 중 몇 명은 내년 여름 유럽 배낭여행을 갈 건데, 벌써 계획을 짜기 시작했어요.",
+"c": [
+[
+"우리 중 몇 명은 갈 거예요",
+"Several of us are going to go",
+"be going to go"
+],
+[
+"배낭여행을",
+"backpacking",
+"backpacking"
+],
+[
+"유럽에서",
+"in Europe",
+"in Europe"
+],
+[
+"내년 여름",
+"next summer",
+"next summer"
+],
+[
+"그리고 우리는 벌써 계획을 짜기 시작했어요",
+"and we’ve already started planning our trip",
+"have already started planning"
+]
+]
+},
+"c2:97:4": {
+"ko": "유권자 다수가 새 제안에 찬성해요.",
+"c": [
+[
+"유권자의 다수가 ~예요",
+"The majority of voters are",
+"be"
+],
+[
+"그 새 제안에 찬성하는",
+"in favor of the new proposal",
+"in favor of the new proposal"
+]
+]
+},
+"c2:97:5": {
+"ko": "그녀 학생의 절반은 수업에서 그녀 말을 한마디도 못 알아들어서 방과 후에 도움을 청해요.",
+"c": [
+[
+"그녀 학생의 절반은 이해하지 못해요",
+"Half of her students don’t understand",
+"don’t understand"
+],
+[
+"그녀가 하는 말을 한마디도",
+"a word she says",
+"a word she says"
+],
+[
+"수업에서",
+"in class",
+"in class"
+],
+[
+"그래서 그들은 추가 도움을 청해요",
+"so they ask for extra help",
+"ask for extra help"
+],
+[
+"방과 후에",
+"after school",
+"after school"
+]
+]
+},
+"c2:97:6": {
+"ko": "선반에 있는 책 몇 권이 없어서, 오늘 도서관이 닫기 전에 찾아야 해요.",
+"c": [
+[
+"책 몇 권이",
+"A few of the books",
+"a few of the books"
+],
+[
+"그 선반에 있는",
+"on the shelf",
+"on the shelf"
+],
+[
+"없어요",
+"are missing",
+"be missing"
+],
+[
+"그래서 나는 그것들을 찾아야 해요",
+"so I need to find them",
+"need to find them"
+],
+[
+"오늘 도서관이 닫기 전에",
+"before the library closes today",
+"before the library closes today"
+]
+]
+},
+"c2:97:7": {
+"ko": "동료 몇 명은 오늘 세미나에 참석하고, 나머지는 사무실에서 일을 마무리하고 있어요.",
+"c": [
+[
+"내 동료 몇 명은 참석하고 있어요",
+"A handful of my coworkers are attending",
+"be attending"
+],
+[
+"그 세미나에",
+"the seminar",
+"the seminar"
+],
+[
+"오늘",
+"today",
+"today"
+],
+[
+"반면 나머지는 사무실에 남아 있어요",
+"while the rest are staying in the office",
+"the rest are staying in the office"
+],
+[
+"그들의 일을 끝내려고",
+"to finish their work",
+"finish their work"
+]
+]
+},
+"c2:97:8": {
+"ko": "우리 중 몇 명은 이미 과제를 끝냈지만, 몇 명은 시간이 더 필요해요.",
+"c": [
+[
+"우리 중 몇 명은 이미 끝냈어요",
+"Several of us have already completed",
+"have already completed"
+],
+[
+"그 과제를",
+"the assignment",
+"the assignment"
+],
+[
+"하지만 몇 명은 아직 시간이 더 필요해요",
+"but a few still need more time",
+"a few still need more time"
+]
+]
+},
+"c2:97:9": {
+"ko": "이 책들 중 일부는 연체돼서 도서관에 반납해야 해요.",
+"c": [
+[
+"이 책들 중 일부는 연체됐어요",
+"Some of these books are overdue",
+"be overdue"
+],
+[
+"그리고 반납되어야 해요",
+"and need to be returned",
+"need to be returned"
+],
+[
+"그 도서관에",
+"to the library",
+"to the library"
+]
+]
+},
+"c2:97:10": {
+"ko": "문제 대부분은 팀 내 소통 문제와 관련돼 있어요.",
+"c": [
+[
+"그 문제 대부분은 관련돼 있어요",
+"Most of the issues are related",
+"be related"
+],
+[
+"소통 문제와",
+"to communication problems",
+"to communication problems"
+],
+[
+"그 팀 내의",
+"within the team",
+"within the team"
+]
+]
+},
+"c2:97:11": {
+"ko": "대부분의 사람은 아침에 일어나자마자 휴대폰을 확인해요.",
+"c": [
+[
+"대부분의 사람은 확인해요",
+"Most people check",
+"check"
+],
+[
+"그들의 휴대폰을",
+"their phones",
+"their phones"
+],
+[
+"그들이 아침에 일어나자마자",
+"as soon as they wake up in the morning",
+"as soon as they wake up"
+]
+]
+},
+"c2:97:12": {
+"ko": "많은 사람이 잠을 깨려고 아침에 커피 마시는 걸 더 좋아해요.",
+"c": [
+[
+"많은 사람이 더 좋아해요",
+"Many people prefer",
+"prefer"
+],
+[
+"마시는 것을",
+"to drink coffee",
+"drink coffee"
+],
+[
+"아침에",
+"in the morning",
+"in the morning"
+],
+[
+"그들이 잠을 깨는 데 도움이 되도록",
+"to help them wake up",
+"help them wake up"
+]
+]
+},
+"c2:97:13": {
+"ko": "내 남동생과 그의 친구가 함께 사업을 시작하고 있어요.",
+"c": [
+[
+"내 남동생과 그의 친구가 시작하고 있어요",
+"My brother and his friend are starting",
+"be starting"
+],
+[
+"사업을",
+"a business",
+"a business"
+],
+[
+"함께",
+"together",
+"together"
+]
+]
+},
+"c2:97:14": {
+"ko": "그 요리사와 종업원이 행사를 준비하려고 함께 일하고 있어요.",
+"c": [
+[
+"그 요리사와 종업원이 함께 일하고 있어요",
+"The chef and the waiter are working together",
+"be working together"
+],
+[
+"그 행사를 준비하려고",
+"to prepare for the event",
+"prepare for the event"
+]
+]
+},
+"c2:97:15": {
+"ko": "경찰은 어젯밤에 일어난 그 범죄를 수사하고 있어요.",
+"c": [
+[
+"그 경찰은 수사하고 있어요",
+"The police are investigating",
+"be investigating"
+],
+[
+"그 범죄를",
+"the crime",
+"the crime"
+],
+[
+"어젯밤에 일어난",
+"that occurred last night",
+"that occurred last night"
+]
+]
+},
+"c2:97:16": {
+"ko": "내 친구 여러 명이 올여름 여행 가는 얘기를 해 오고 있어요.",
+"c": [
+[
+"내 친구 여러 명이 얘기해 오고 있어요",
+"A number of my friends have been talking",
+"have been talking"
+],
+[
+"여행 가는 것에 대해",
+"about taking a trip",
+"about taking a trip"
+],
+[
+"올여름",
+"this summer",
+"this summer"
+]
+]
+},
+"c2:97:17": {
+"ko": "우리 대다수는 시골에 가기로 합의했지만 세부 사항은 아직 정리 중이에요.",
+"c": [
+[
+"우리 대다수는 합의했어요",
+"The majority of us have agreed",
+"have agreed"
+],
+[
+"시골을 방문하기로",
+"on visiting the countryside",
+"on visiting the countryside"
+],
+[
+"하지만 우리는 아직 세부 사항을 정리하고 있어요",
+"but we’re still finalizing the details",
+"still finalizing the details"
+]
+]
+},
+"c2:97:18": {
+"ko": "우리 중 두어 명이 묵기 좋은 곳을 찾는 일을 맡고 있어요.",
+"c": [
+[
+"우리 중 두어 명이 책임지고 있어요",
+"A couple of us are responsible",
+"be responsible"
+],
+[
+"가장 좋은 숙소를 찾는 것을",
+"for finding the best places to stay",
+"for finding the best places to stay"
+]
+]
+},
+"c2:97:19": {
+"ko": "한편 그룹의 절반은 거기서 할 수 있는 활동을 알아보는 데 더 집중하고 있어요.",
+"c": [
+[
+"한편",
+"Meanwhile",
+"meanwhile"
+],
+[
+"그 그룹의 절반은 더 집중하고 있어요",
+"half of the group is more focused",
+"be more focused"
+],
+[
+"우리가 거기서 할 수 있는 활동을 알아내는 데",
+"on figuring out the activities we can do there",
+"on figuring out the activities"
+]
+]
+},
+"c2:98:0": {
+"ko": "20마일은 하루에 뛰기엔 먼 거리예요.",
+"c": [
+[
+"20마일은 ~예요",
+"Twenty miles is",
+"be"
+],
+[
+"먼 거리",
+"a long way",
+"a long way"
+],
+[
+"하루에 뛰기에",
+"to run in one day",
+"run in one day"
+]
+]
+},
+"c2:98:1": {
+"ko": "500달러는 신발 한 켤레에 쓰기엔 큰돈이에요.",
+"c": [
+[
+"500달러는 ~예요",
+"Five hundred dollars is",
+"be"
+],
+[
+"많은 것",
+"a lot",
+"a lot"
+],
+[
+"신발 한 켤레에 쓰기에",
+"to spend on a pair of shoes",
+"spend on a pair of shoes"
+]
+]
+},
+"c2:98:2": {
+"ko": "제출 전에 한 명 이상이 그 문서를 승인해야 해요.",
+"c": [
+[
+"한 명 이상이 필요해요",
+"More than one person needs",
+"need"
+],
+[
+"그 문서를 승인하는 것이",
+"to approve the document",
+"approve the document"
+],
+[
+"제출 전에",
+"before submission",
+"before submission"
+]
+]
+},
+"c2:98:3": {
+"ko": "이 일에서 가장 큰 난제 중 하나는 촉박한 마감을 관리하는 거예요.",
+"c": [
+[
+"가장 큰 난제 중 하나는",
+"One of the biggest challenges",
+"one of the biggest challenges"
+],
+[
+"이 일에서",
+"in this job",
+"in this job"
+],
+[
+"~하는 거예요",
+"is",
+"be"
+],
+[
+"촉박한 마감을 관리하는 것",
+"managing tight deadlines",
+"managing tight deadlines"
+]
+]
+},
+"c2:98:4": {
+"ko": "올겨울 그 도시에 40인치가 넘는 눈이 내렸어요.",
+"c": [
+[
+"40인치가 넘는 눈이 내렸어요",
+"More than 40 inches of snow has fallen",
+"have fallen"
+],
+[
+"그 도시에",
+"on the city",
+"on the city"
+],
+[
+"올겨울",
+"this winter",
+"this winter"
+]
+]
+},
+"c2:98:5": {
+"ko": "우리 집 근처 식당 중 하나가 동네에서 가장 맛있는 피자를 내요.",
+"c": [
+[
+"식당 중 하나가",
+"One of the restaurants",
+"one of the restaurants"
+],
+[
+"우리 집 근처의",
+"near my house",
+"near my house"
+],
+[
+"내요",
+"serves",
+"serve"
+],
+[
+"가장 맛있는 피자를",
+"the best pizza",
+"the best pizza"
+],
+[
+"동네에서",
+"in town",
+"in town"
+]
+]
+},
+"c2:98:6": {
+"ko": "유엔은 자연재해 피해국에 인도적 지원을 제공해요.",
+"c": [
+[
+"그 유엔은 제공해요",
+"The United Nations provides",
+"provide"
+],
+[
+"인도적 지원을",
+"humanitarian aid",
+"humanitarian aid"
+],
+[
+"자연재해의 영향을 받은 나라들에",
+"to countries affected by natural disasters",
+"to countries affected by disasters"
+]
+]
+},
+"c2:98:7": {
+"ko": "미국은 세계 정치와 외교에서 핵심 역할을 해요.",
+"c": [
+[
+"그 미국은 해요",
+"The United States plays",
+"play"
+],
+[
+"핵심 역할을",
+"a key role",
+"a key role"
+],
+[
+"세계 정치와 외교에서",
+"in global politics and diplomacy",
+"in global politics and diplomacy"
+]
+]
+},
+"c2:98:8": {
+"ko": "회의에 필요한 모든 것이 이미 준비되고 설치돼 있어요.",
+"c": [
+[
+"모든 것이",
+"Everything",
+"everything"
+],
+[
+"당신이 그 회의에 필요한",
+"you need for the meeting",
+"you need for the meeting"
+],
+[
+"이미 준비되고 설치돼 있어요",
+"is already prepared and set up",
+"be already prepared and set up"
+]
+]
+},
+"c2:98:9": {
+"ko": "사무실의 모두가 프로젝트 마감을 맞추려고 열심히 일하고 있었어요.",
+"c": [
+[
+"사무실의 모두가 일하고 있었어요",
+"Everyone in the office was working",
+"be working"
+],
+[
+"열심히",
+"hard",
+"hard"
+],
+[
+"그 프로젝트 마감을 맞추려고",
+"to meet the project deadline",
+"meet the project deadline"
+]
+]
+},
+"c2:98:10": {
+"ko": "모든 학생은 금요일까지 과제를 제출해야 해요.",
+"c": [
+[
+"모든 학생은 요구돼요",
+"Every student is required",
+"be required"
+],
+[
+"그 과제를 제출하도록",
+"to submit the assignment",
+"submit the assignment"
+],
+[
+"금요일까지",
+"by Friday",
+"by Friday"
+]
+]
+},
+"c2:98:11": {
+"ko": "나는 폭풍 때문에 모든 게 문을 닫았다는 걸 알았어요.",
+"c": [
+[
+"나는 알았어요",
+"I found",
+"find"
+],
+[
+"모든 게 문을 닫았다는 것을",
+"that everything was closed",
+"that everything was closed"
+],
+[
+"그 폭풍 때문에",
+"because of the storm",
+"because of the storm"
+]
+]
+},
+"c2:98:12": {
+"ko": "두 선택지 중 어느 쪽이든 저는 괜찮아요.",
+"c": [
+[
+"그 선택지 중 어느 쪽이든 괜찮아요",
+"Either of the options is fine",
+"be fine"
+],
+[
+"저에게는",
+"with me",
+"with me"
+]
+]
+},
+"c2:98:13": {
+"ko": "그 차들 중 어느 것도 상태가 좋지 않아서 새로 사는 걸 고려해야 해요.",
+"c": [
+[
+"그 차들 중 어느 것도 좋은 상태가 아니에요",
+"Neither of the cars is in good condition",
+"be in good condition"
+],
+[
+"그래서 우리는 고려해야 해요",
+"so we should consider",
+"should consider"
+],
+[
+"새것을 사는 것을",
+"getting a new one",
+"getting a new one"
+]
+]
+},
+"c2:98:14": {
+"ko": "각 구성원은 특정 업무를 맡아요.",
+"c": [
+[
+"각 구성원은 책임져요",
+"Each member is responsible",
+"be responsible"
+],
+[
+"특정 업무를",
+"for a specific task",
+"for a specific task"
+]
+]
+},
+"c2:98:15": {
+"ko": "그 서류들은 각각 관리자의 서명을 받았어요.",
+"c": [
+[
+"그 서류들은 각각 서명됐어요",
+"Each of the documents is signed",
+"be signed"
+],
+[
+"그 관리자에 의해",
+"by the manager",
+"by the manager"
+]
+]
+},
+"c2:98:16": {
+"ko": "여행 준비는 순조롭게 되고 있지만 세부 사항 몇 가지를 아직 정해야 해요.",
+"c": [
+[
+"모든 게 순조롭게 되고 있어요",
+"Everything is going smoothly",
+"be going smoothly"
+],
+[
+"그 여행을 위해",
+"for the trip",
+"for the trip"
+],
+[
+"하지만 우리는 아직 정해야 해요",
+"but we still need to finalize",
+"still need to finalize"
+],
+[
+"세부 사항 몇 가지를",
+"a few details",
+"a few details"
+]
+]
+},
+"c2:98:17": {
+"ko": "호텔 중 한 곳이 할인을 해 주는데 괜찮게 들려요.",
+"c": [
+[
+"호텔 중 한 곳이 제공하고 있어요",
+"One of the hotels is offering",
+"be offering"
+],
+[
+"할인을",
+"a discount",
+"a discount"
+],
+[
+"그게 괜찮게 들려요",
+"which sounds great",
+"which sounds great"
+]
+]
+},
+"c2:98:18": {
+"ko": "근처 식당 어느 곳도 아침 일찍 열지 않아서 다른 방법을 찾아야 해요.",
+"c": [
+[
+"근처 식당 어느 곳도 열지 않아요",
+"Neither of the nearby restaurants opens",
+"open"
+],
+[
+"아침 일찍",
+"early in the morning",
+"early in the morning"
+],
+[
+"그래서 우리는 다른 방법을 찾아야 할 거예요",
+"so we’ll have to find another option",
+"will have to find another option"
+]
+]
+},
+"c2:98:19": {
+"ko": "우리는 각자 다른 업무를 맡고 있고, 모두 여행 준비가 된 것 같아요.",
+"c": [
+[
+"우리는 각자 책임지고 있어요",
+"Each of us is responsible",
+"be responsible"
+],
+[
+"다른 업무를",
+"for a different task",
+"for a different task"
+],
+[
+"그리고 모두가 준비된 것 같아요",
+"and everyone feels ready",
+"everyone feels ready"
+],
+[
+"그 여행을 위해",
+"for the trip",
+"for the trip"
+]
+]
+},
+"c2:99:0": {
+"ko": "그 행사에 대한 대부분의 정보는 공식 웹사이트에서 볼 수 있어요.",
+"c": [
+[
+"대부분의 정보는",
+"Most information",
+"most information"
+],
+[
+"그 행사에 대한",
+"about the event",
+"about the event"
+],
+[
+"이용 가능해요",
+"is available",
+"be available"
+],
+[
+"그들의 공식 웹사이트에서",
+"on their official website",
+"on their official website"
+]
+]
+},
+"c2:99:1": {
+"ko": "대부분의 지식은 책보다 경험에서 나와요.",
+"c": [
+[
+"대부분의 지식은 나와요",
+"Most knowledge comes",
+"come"
+],
+[
+"경험에서",
+"from experience",
+"from experience"
+],
+[
+"책보다는",
+"rather than books",
+"rather than books"
+]
+]
+},
+"c2:99:2": {
+"ko": "그 일의 대부분은 마감 전에 끝났어요.",
+"c": [
+[
+"그 일의 대부분은 끝났어요",
+"Most of the work was done",
+"be done"
+],
+[
+"마감 전에",
+"before the deadline",
+"before the deadline"
+]
+]
+},
+"c2:99:3": {
+"ko": "이 동네 집들은 대부분 새로 지어졌어요.",
+"c": [
+[
+"그 집들의 대부분은",
+"Most of the houses",
+"most of the houses"
+],
+[
+"이 동네에 있는",
+"in this neighborhood",
+"in this neighborhood"
+],
+[
+"새로 지어졌어요",
+"are newly built",
+"be newly built"
+]
+]
+},
+"c2:99:4": {
+"ko": "그들 대부분은 그 서비스에 만족했어요.",
+"c": [
+[
+"그들 대부분은 만족했어요",
+"Most of them were happy",
+"be happy"
+],
+[
+"그 서비스에",
+"with the service",
+"with the service"
+]
+]
+},
+"c2:99:5": {
+"ko": "요즘 더 많은 아이가 방과 후 활동에 참여하고 있어요.",
+"c": [
+[
+"더 많은 아이가 참여하고 있어요",
+"More children are getting involved",
+"be getting involved"
+],
+[
+"방과 후 활동에",
+"in extracurricular activities",
+"in extracurricular activities"
+],
+[
+"요즘",
+"these days",
+"these days"
+]
+]
+},
+"c2:99:6": {
+"ko": "더 많은 피드백이 친환경 포장에 대한 관심 증가를 가리켜요.",
+"c": [
+[
+"더 많은 피드백이 가리켜요",
+"More of the feedback points",
+"point"
+],
+[
+"관심 증가를",
+"to a growing interest",
+"to a growing interest"
+],
+[
+"친환경 포장에 대한",
+"in eco-friendly packaging",
+"in eco-friendly packaging"
+]
+]
+},
+"c2:99:7": {
+"ko": "체육관의 모든 기구는 깨끗하고 안전한 환경을 위해 사용 후 소독돼요.",
+"c": [
+[
+"모든 기구는",
+"All the equipment",
+"all the equipment"
+],
+[
+"그 체육관의",
+"in the gym",
+"in the gym"
+],
+[
+"소독돼요",
+"is sanitized",
+"be sanitized"
+],
+[
+"사용 후에",
+"after use",
+"after use"
+],
+[
+"깨끗하고 안전한 환경을 위해",
+"for a clean and safe environment",
+"for a clean and safe environment"
+]
+]
+},
+"c2:99:8": {
+"ko": "모든 참가자는 행사 시작 전에 동의서에 서명해야 해요.",
+"c": [
+[
+"모든 참가자는 요구돼요",
+"All participants are required",
+"be required"
+],
+[
+"그 동의서에 서명하도록",
+"to sign the agreement",
+"sign the agreement"
+],
+[
+"그 행사가 시작되기 전에",
+"before the event begins",
+"before the event begins"
+]
+]
+},
+"c2:99:9": {
+"ko": "효율적인 시스템 덕분에 줄 서 있던 사람들 모두 빠르게 응대받았어요.",
+"c": [
+[
+"줄 서서 기다리던 모든 사람이",
+"All the people waiting in line",
+"all the people waiting in line"
+],
+[
+"빠르게 응대받았어요",
+"were served quickly",
+"be served quickly"
+],
+[
+"그 효율적인 시스템 덕분에",
+"thanks to the efficient system",
+"thanks to the efficient system"
+]
+]
+},
+"c2:99:10": {
+"ko": "모든 서류가 제출 준비됐고, 우리는 최종 승인만 기다리고 있어요.",
+"c": [
+[
+"모든 서류가 준비됐어요",
+"All the documents are ready",
+"be ready"
+],
+[
+"제출을 위해",
+"for submission",
+"for submission"
+],
+[
+"그리고 우리는 그저 기다리고 있어요",
+"and we are just waiting",
+"be just waiting"
+],
+[
+"그 최종 승인을",
+"for the final approval",
+"for the final approval"
+]
+]
+},
+"c2:99:11": {
+"ko": "주간 팀 회의에서 많은 정보가 공유돼요.",
+"c": [
+[
+"많은 정보가 공유돼요",
+"A lot of information is shared",
+"be shared"
+],
+[
+"그 주간 팀 회의에서",
+"during the weekly team meetings",
+"during the weekly team meetings"
+]
+]
+},
+"c2:99:12": {
+"ko": "많은 기업이 탄소 발자국을 줄이려고 재생 에너지에 투자하고 있어요.",
+"c": [
+[
+"많은 기업이 투자하고 있어요",
+"A lot of companies are investing",
+"be investing"
+],
+[
+"재생 에너지에",
+"in renewable energy",
+"in renewable energy"
+],
+[
+"그들의 탄소 발자국을 줄이려고",
+"to reduce their carbon footprint",
+"reduce their carbon footprint"
+]
+]
+},
+"c2:99:13": {
+"ko": "지난 주말 자선 행사 동안 많은 책이 도서관에 기증됐어요.",
+"c": [
+[
+"많은 책이 기증됐어요",
+"A lot of books were donated",
+"be donated"
+],
+[
+"그 도서관에",
+"to the library",
+"to the library"
+],
+[
+"지난 주말 그 자선 행사 동안",
+"during the charity event last weekend",
+"during the charity event last weekend"
+]
+]
+},
+"c2:99:14": {
+"ko": "파티 후에 음식이 좀 남아서 손님들이 가져가게 싸 뒀어요.",
+"c": [
+[
+"음식이 좀 남았어요",
+"Some food was left over",
+"be left over"
+],
+[
+"그 파티 후에",
+"after the party",
+"after the party"
+],
+[
+"그래서 우리는 그것을 싸 뒀어요",
+"so we packed it up",
+"pack it up"
+],
+[
+"손님들이 집에 가져가도록",
+"for the guests to take home",
+"for the guests to take home"
+]
+]
+},
+"c2:99:15": {
+"ko": "어떤 사람들은 더 조용하고 생산적인 시간이라 밤늦게 일하는 걸 즐겨요.",
+"c": [
+[
+"어떤 사람들은 즐겨요",
+"Some people enjoy",
+"enjoy"
+],
+[
+"밤늦게 일하는 것을",
+"working late at night",
+"working late at night"
+],
+[
+"그들이 그것을 더 조용하고 생산적인 시간이라고 여기기 때문에",
+"because they find it to be a quieter and more productive time",
+"because they find it a quieter time"
+]
+]
+},
+"c2:99:16": {
+"ko": "요즘 대부분의 사람은 더 편해서 온라인 쇼핑을 선호해요.",
+"c": [
+[
+"대부분의 사람은 선호해요",
+"Most people prefer",
+"prefer"
+],
+[
+"온라인 쇼핑을",
+"shopping online",
+"shopping online"
+],
+[
+"요즘",
+"these days",
+"these days"
+],
+[
+"그게 더 편하기 때문에",
+"because it’s more convenient",
+"because it’s more convenient"
+]
+]
+},
+"c2:99:17": {
+"ko": "우리 동네 상점 대부분이 집 배송 서비스를 시작했어요.",
+"c": [
+[
+"그 상점들 대부분이",
+"Most of the stores",
+"most of the stores"
+],
+[
+"우리 동네에 있는",
+"in our neighborhood",
+"in our neighborhood"
+],
+[
+"시작했어요",
+"have started",
+"have started"
+],
+[
+"집 배송 서비스를 제공하기를",
+"offering home delivery services",
+"offering home delivery services"
+]
+]
+},
+"c2:99:18": {
+"ko": "지난주에 주문한 물건이 전부 제때 도착해서 좋았어요.",
+"c": [
+[
+"내가 주문한 모든 제품이",
+"All the products I ordered",
+"all the products I ordered"
+],
+[
+"지난주에",
+"last week",
+"last week"
+],
+[
+"제때 도착했어요",
+"arrived on time",
+"arrive on time"
+],
+[
+"그게 좋았어요",
+"which was great",
+"which was great"
+]
+]
+},
+"c2:99:19": {
+"ko": "다만 어떤 물건은 기대했던 것과 달라서 반품해야 할 것 같아요.",
+"c": [
+[
+"하지만 어떤 물건들은",
+"Some items, however",
+"some items however"
+],
+[
+"내가 기대한 것과 정확히 같지 않았어요",
+"were not exactly what I expected",
+"be not exactly what I expected"
+],
+[
+"그래서 나는 그것들을 반품해야 할 거예요",
+"so I’ll have to return them",
+"will have to return them"
+]
+]
+}
+}
