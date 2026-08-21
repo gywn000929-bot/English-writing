@@ -4,6 +4,13 @@
 Rule learned from c1 PART2 CH1: within one chapter, the k-th STEP-n block in *page*
 order belongs to the k-th unit in *unit-number* order.  Also repairs blocks whose
 items got rotated (labels like 10,11,12,1,2,...).
+
+Known limit: when one unit's STEP block got split into two fragments that landed under
+two different unit headers, the block count no longer matches the unit count and the
+whole chapter is skipped (see the SKIP lines it prints).  c3 CHAPTER 2 was that case and
+was re-filed by hand from the label sequences; its units are now stored in unit-number
+order so re-running this script leaves them alone.  Still open, same shape:
+c3 CHAPTER 8 (12 blocks / 10 units), daily CHAPTER 4 (6 blocks / 5 units).
 """
 import json, io, os, re, sys
 from collections import Counter
