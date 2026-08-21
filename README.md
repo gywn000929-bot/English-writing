@@ -86,7 +86,7 @@ GitHub Pages를 켜면 아래 주소에서 바로 실행됩니다.
 ```
 index.html          빌드 결과물 (이 파일만 열면 됩니다)
 src/
-  data.json         197유닛 3,484문장 (id = book:유닛인덱스:문항인덱스)
+  data.json         198유닛 3,484문장 (id = book:유닛인덱스:문항인덱스)
   ko_*.json         한국어·청크 배치 파일
   ko_all.json       배치 병합 결과
   template2.html    앱 템플릿 (__DATA__ / __KO__ 자리표시자)
