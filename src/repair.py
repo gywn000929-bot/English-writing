@@ -60,6 +60,13 @@ groups = {}
 for gi, x in enumerate(u):
     groups.setdefault((x['book'], x['part'], x['chapter']), []).append(gi)
 
+# Every chapter has since been verified (and where needed re-filed) by hand, so the
+# automatic pass now has nothing left to fix and plenty left to break: where a chapter's
+# units are not stored in unit-number order, the k-th-block-to-k-th-unit rule would move
+# correct blocks onto the wrong units.  So this runs as a REPORT by default and only
+# re-files with an explicit --apply.  Read the report before ever passing it.
+APPLY = '--apply' in sys.argv
+
 moved = fixed_rot = skipped = 0
 report = []
 SKIP_BOOKS = {'c1'}   # c1 was repaired by hand already; re-running would undo it
@@ -78,6 +85,7 @@ for key, gis in groups.items():
             report.append('  SKIP %-6s %-30s step%d: %d blocks vs %d units'
                           % (key[0], key[2][:30], step, len(blocks), len(targets)))
             continue
+        if not APPLY: continue
         before = {id(x): [i['en'] for i in x['items'] if i['step'] == step] for x in units}
         for x, b in zip(targets, blocks):
             b = rotated_fix(b)
@@ -88,7 +96,7 @@ for key, gis in groups.items():
         for x in units:
             if [i['en'] for i in x['items'] if i['step'] == step] != before[id(x)]: moved += 1
 
-for x in u:                                               # final tidy: rotation inside a unit
+for x in (u if APPLY else []):                            # final tidy: rotation inside a unit
     if x['book'] in SKIP_BOOKS: continue
     for step in (2, 3):
         blk = [i for i in x['items'] if i['step'] == step]
@@ -101,8 +109,16 @@ for x in u:                                               # final tidy: rotation
             rest = [i for i in others if i['step'] != 1]
             x['items'] = s1 + (f if step == 2 else rest) + (rest if step == 2 else f)
 
-print('blocks re-filed in %d units | rotations fixed: %d | chapters skipped: %d' % (moved, fixed_rot, skipped))
+print('%s | blocks re-filed in %d units | rotations fixed: %d | chapters skipped: %d'
+      % ('APPLIED' if APPLY else 'report only (--apply 로 실제 재배치)', moved, fixed_rot, skipped))
 for r in report: print(r)
+
+print('\n=== 배열 순서가 UNIT 번호 순이 아닌 챕터 (자동 재배치를 걸면 어긋납니다) ===')
+for key, gis in groups.items():
+    if key[0] in SKIP_BOOKS: continue
+    ns = [unum(u[g]) for g in gis]
+    if ns != sorted(ns):
+        print('  %-6s %-40s %s' % (key[0], (key[2] or '')[:40], ns))
 
 print('\n=== unit sizes after repair ===')
 for b in ['c1', 'c2', 'c3', 'daily']:
@@ -117,4 +133,8 @@ for gi, x in enumerate(u):
         if bad <= 20: print('  gi=%-4d %-6s %-40s %s' % (gi, x['book'], x['unit'][:40], labs))
 print('  total:', bad)
 
-json.dump(u, io.open(os.path.join(D, 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+if APPLY:
+    json.dump(u, io.open(os.path.join(D, 'data.json'), 'w', encoding='utf-8'), ensure_ascii=False)
+    print('\n-> data.json 갱신')
+else:
+    print('\n(data.json 은 건드리지 않았습니다)')
