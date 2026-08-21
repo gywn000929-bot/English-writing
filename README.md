@@ -33,6 +33,16 @@
 
 그 밖에 유닛별 학습지 인쇄, 진도·정답률·즐겨찾기·오답노트(localStorage), STEP 필터, 검색, 다크/라이트 테마를 지원합니다.
 
+## 바로 열기
+
+GitHub Pages를 켜면 아래 주소에서 바로 실행됩니다.
+
+**https://gywn000929-bot.github.io/English-writing/**
+
+(Settings → Pages → Source: `Deploy from a branch`, Branch: `main` / `/ (root)`)
+
+내려받아 쓰려면 `index.html` 한 파일만 있으면 됩니다. 오프라인에서도 그대로 동작합니다.
+
 ## 데이터 현황
 
 | 교재 | 한국어·청크 완료 |
@@ -48,7 +58,7 @@
 ## 구조
 
 ```
-영어로_문장만들기_훈련기.html   빌드 결과물 (이 파일만 열면 됩니다)
+index.html          빌드 결과물 (이 파일만 열면 됩니다)
 src/
   data.json         197유닛 3,484문장 (id = book:유닛인덱스:문항인덱스)
   ko_*.json         한국어·청크 배치 파일
