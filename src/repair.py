@@ -11,6 +11,14 @@ whole chapter is skipped (see the SKIP lines it prints).  c3 CHAPTER 2 was that 
 was re-filed by hand from the label sequences; its units are now stored in unit-number
 order so re-running this script leaves them alone.  Still open, same shape:
 c3 CHAPTER 8 (12 blocks / 10 units), daily CHAPTER 4 (6 blocks / 5 units).
+
+Worse, a split block can make the counts match by accident, so nothing is skipped and the
+identity mapping silently keeps every block under the wrong header.  c3 CHAPTER 7 was that
+case: UNIT 4 kept only the tail of its own block (labels 11,12) while its 1..10 sat under
+UNIT 5, pushing every later unit's block one unit forward.  8 blocks / 8 units, no warning.
+The tell is a block whose labels do not start at 1 — it is the tail of the previous unit's
+block, not a block of its own.  Re-filed by hand; CHAPTER 7 now counts 7 blocks / 8 units
+(UNIT 8's STEP2 is absent from the extract), so this script skips it from here on.
 """
 import json, io, os, re, sys
 from collections import Counter
