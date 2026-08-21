@@ -19,6 +19,12 @@ UNIT 5, pushing every later unit's block one unit forward.  8 blocks / 8 units, 
 The tell is a block whose labels do not start at 1 — it is the tail of the previous unit's
 block, not a block of its own.  Re-filed by hand; CHAPTER 7 now counts 7 blocks / 8 units
 (UNIT 8's STEP2 is absent from the extract), so this script skips it from here on.
+
+c3 CHAPTER 8 held three shapes at once: U1/U2/U3 blocks rotated among themselves, U6's
+last three items stranded at the end of U5, and U4's STEP1 examples typed as STEP2 (labels
+1,2,4).  Re-filed by hand; U2 and U3 were also swapped into unit-number order so the k-th
+block really is the k-th unit.  Two sentences the extract never had: U4's STEP1 #3 and
+U7's STEP2 #1.  Still open: daily CHAPTER 4 (6 blocks / 5 units).
 """
 import json, io, os, re, sys
 from collections import Counter
