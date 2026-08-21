@@ -205,6 +205,79 @@ textarea.ans:focus{border-color:var(--ac)}
   box-shadow:var(--sh);transition:.25s;opacity:0;z-index:99}
 .toast.on{transform:translateX(-50%) translateY(0);opacity:1}
 
+
+/* ---------- mobile ---------- */
+.mobonly{display:none}
+.sideclose{display:none}
+@media(max-width:720px){
+  .mobonly{display:inline-block}
+  .top{padding:8px 12px;gap:8px}
+  .brand{font-size:15px;gap:7px}
+  .brand small{display:none}
+  .brand i{width:24px;height:24px;font-size:13px}
+  .kpis{order:3;width:100%;margin-left:0;gap:6px;overflow-x:auto;padding-bottom:2px;
+    flex-wrap:nowrap;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .kpis::-webkit-scrollbar{display:none}
+  .kpi{flex:0 0 auto;min-width:64px;padding:4px 9px}
+  .kpi b{font-size:14px}
+  .kpi span{font-size:9.5px}
+  .iconbtn{padding:7px 10px}
+
+  .wrap{padding:10px;gap:10px}
+  .side{display:none}
+  .side.open{display:flex}
+  .tree{max-height:56vh}
+  .sideclose{display:block;width:100%;padding:9px;border:1px solid var(--line);
+    border-radius:10px;background:var(--card);color:var(--tx2);font-size:13px;font-weight:700}
+
+  .phead{padding:11px 13px;gap:9px}
+  .ptitle{font-size:14.5px}
+  .modes{flex:1 1 0;min-width:0;margin-left:0;flex-wrap:nowrap;overflow-x:auto;padding-bottom:2px;
+    -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #btnOpts{flex:0 0 auto}
+  .modes::-webkit-scrollbar{display:none}
+  .md{flex:0 0 auto}
+  .opts{padding:9px 13px;gap:9px 12px;font-size:12px;display:none}
+  .opts.open{display:flex}
+  .pmeta{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:58vw}
+  .phead > div:first-child{min-width:0;flex:1 0 100%}
+
+  .stage{padding:16px 13px 14px;min-height:0}
+  .koq{font-size:19px}
+  .sent{font-size:19px}
+  .hint{font-size:15.5px;letter-spacing:1px}
+  .skel{gap:5px;margin:11px 0 4px}
+  .skel .c{font-size:12.5px;padding:4px 9px}
+
+  /* build rows stack: 번호+한국어 / 입력칸 / 힌트 */
+  .br{grid-template-columns:22px 1fr;gap:5px 8px;padding:11px 11px}
+  .br .no{text-align:left}
+  .br .kc{grid-column:2;font-size:13.5px}
+  .br input{grid-column:2;font-size:16px;padding:9px 10px}
+  .br .kw{grid-column:2;font-size:12px}
+  .ansline{font-size:16px}
+
+  textarea.ans{font-size:16px;min-height:78px}
+  .blanks{font-size:17px;line-height:2.1}
+  .blanks input{font-size:16px;width:7em}
+  .tk{font-size:15px;padding:8px 12px}
+  .slot{min-height:56px}
+
+  .btn{padding:11px 15px;font-size:13.5px}
+  .ctrl{gap:6px;padding-top:14px}
+  .fb .corr{font-size:15.5px}
+
+  .row{padding:9px 13px;font-size:13.5px}
+  .row .n{flex:0 0 44px}
+  .dlg{padding:17px 17px}
+  .toast{bottom:14px;font-size:12.5px;padding:9px 15px}
+}
+@media(max-width:380px){
+  .kpi{min-width:58px;padding:4px 7px}
+  .md{padding:6px 10px;font-size:12px}
+  .koq,.sent{font-size:17.5px}
+}
+
 /* ---- hint mask (build mode) ---- */
 .br .kw.kwhide{cursor:pointer;color:var(--tx3);font-weight:600}
 .br .kw.kwhide:before{opacity:.4}
@@ -264,6 +337,7 @@ textarea.ans:focus{border-color:var(--ac)}
     <div class="kpi"><b id="k4">0</b><span>오늘 푼 문제</span></div>
     <div class="kpi"><b id="k5">0</b><span>즐겨찾기</span></div>
   </div>
+  <button class="iconbtn mobonly" id="btnSide" title="유닛 목록">☰ 유닛</button>
   <button class="iconbtn" id="btnTheme" title="테마 전환">◐</button>
   <button class="iconbtn" id="btnReset" title="진도 초기화">↺</button>
 </div>
@@ -274,6 +348,7 @@ textarea.ans:focus{border-color:var(--ac)}
     <div class="srch"><input id="q" placeholder="문장·유닛 검색 (영어/한글)"></div>
     <div class="filt"><label><input type="checkbox" id="onlyKo"> 한국어 준비된 유닛만 보기</label></div>
     <div class="tree" id="tree"></div>
+    <button class="sideclose" id="btnSideClose">닫기 ▲</button>
   </aside>
 
   <main class="main">
@@ -284,6 +359,7 @@ textarea.ans:focus{border-color:var(--ac)}
           <div class="pmeta" id="uMeta">—</div>
         </div>
         <div class="modes" id="modes"></div>
+        <button class="iconbtn mobonly" id="btnOpts" title="학습 옵션">⚙ 옵션</button>
       </div>
       <div class="opts">
         <label><input type="checkbox" id="o1" checked> STEP1 대표·유제</label>
@@ -439,7 +515,8 @@ function paintKPI(){
 function paintBooks(){
   const w=$("#books"); w.innerHTML="";
   BOOKS.forEach(b=>{ const n=el("button","bk"+(S.book===b.k?" on":""), b.n+"<b>"+b.s+"</b>");
-    n.onclick=()=>{S.book=b.k; S.unit=null; paintBooks(); paintTree(); pickFirst();}; w.appendChild(n); });
+    n.onclick=()=>{S.book=b.k; S.unit=null; paintBooks(); paintTree(); pickFirst();
+      if(isMobile()) sideEl().classList.add("open");}; w.appendChild(n); });
 }
 function unitsOf(){
   if(S.book==="star"||S.book==="wrong") return [];
@@ -467,7 +544,9 @@ function paintTree(){
     const b=el("button","un"+(S.unit===u.gi?" on":""),
       '<span class="ring" style="--p:'+deg+'deg"></span><span class="nm">'+esc(u.unit)+'</span>'
       +(u.koCount?'<span class="ko">한</span>':'')+'<span class="ct">'+d+"/"+u.items.length+"</span>");
-    b.onclick=()=>{ S.unit=u.gi; buildQueue(); paintTree(); render(); };
+    b.onclick=()=>{ S.unit=u.gi; buildQueue(); paintTree(); render();
+      if(isMobile()){ sideEl().classList.remove("open");
+        document.querySelector(".main").scrollIntoView({behavior:"smooth",block:"start"}); } };
     t.appendChild(b);
   });
 }
@@ -821,6 +900,11 @@ $("#pGo").onclick=doPrint;
 $("#pmask").onclick=e=>{ if(e.target.id==="pmask") $("#pmask").classList.remove("on"); };
 
 /* ---------- events ---------- */
+const isMobile = () => matchMedia("(max-width:720px)").matches;
+const sideEl = () => document.querySelector(".side");
+$("#btnSide").onclick=()=>sideEl().classList.toggle("open");
+$("#btnSideClose").onclick=()=>sideEl().classList.remove("open");
+$("#btnOpts").onclick=()=>document.querySelector(".opts").classList.toggle("open");
 $("#q").addEventListener("input",e=>{S.q=e.target.value; paintTree();});
 $("#onlyKo").addEventListener("change",()=>{paintTree(); pickFirst();});
 ["#o1","#o2","#o3","#oShuffle"].forEach(s=>$(s).addEventListener("change",()=>{buildQueue();render();}));
