@@ -4,7 +4,9 @@ import io, json, os, sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 D = os.path.dirname(os.path.abspath(__file__))
-OUT = r"C:/Users/manju/OneDrive - Dae-A Electronics (Thailand) Company Limited/문서_드라이브/2608 셋째주/영어로_문장만들기_훈련기.html"
+ROOT = os.path.dirname(D)
+# 로컬 사본 경로 — 없는 환경(리눅스/CI)에서는 조용히 건너뜁니다.
+OUT  = r"C:/Users/manju/OneDrive - Dae-A Electronics (Thailand) Company Limited/문서_드라이브/2608 셋째주/영어로_문장만들기_훈련기.html"
 
 tpl  = io.open(os.path.join(D, 'template2.html'), encoding='utf-8').read()
 data = json.load(io.open(os.path.join(D, 'data.json'),   encoding='utf-8'))
@@ -22,7 +24,10 @@ tpl = tpl.replace('const KO = __KO__;',   'const KO = '   + enc(ko)   + ';')
 tpl = tpl.replace('const DATA = __DATA__;', 'const DATA = ' + enc(data) + ';')
 assert '__KO__' not in tpl and '__DATA__' not in tpl
 
-for out in [OUT, os.path.join(D, 'app.html')]:
+targets = [os.path.join(ROOT, 'index.html'), os.path.join(D, 'app.html')]
+if os.path.isdir(os.path.dirname(OUT)):
+    targets.append(OUT)
+for out in targets:
     io.open(out, 'w', encoding='utf-8').write(tpl)
 
 tot = sum(len(x['items']) for x in data)
