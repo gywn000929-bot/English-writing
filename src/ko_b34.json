@@ -1,0 +1,19 @@
+{
+"daily:163:12":{"ko": "입구에서 제 이름으로 예약했다고 직원에게 말해요.", "c": [["입구에서", "At the entrance", "entrance"], ["나는 직원에게 말해요", "I tell the staff", "tell"], ["내 이름으로 예약이 되어 있다고", "that I have a reservation under my name", "under one’s name"]]},
+"daily:163:13":{"ko": "메뉴를 보고 음식을 고른 다음 음료도 함께 주문해요.", "c": [["나는 메뉴를 봐요", "I look at the menu", "menu"], ["음식을 몇 가지 골라요", "choose some dishes", "dish"], ["그리고 음료도 주문해요", "and order beverages as well", "as well"]]},
+"daily:163:14":{"ko": "저는 치즈 알레르기가 있어서 치즈는 빼고 대신 채소를 더 달라고 부탁해요.", "c": [["나는 치즈 알레르기가 있어요", "I have a cheese allergy", "allergy"], ["그래서 나는 그들에게 부탁해요", "so I ask them", "ask"], ["치즈는 빼 달라고", "to leave out the cheese", "leave out"], ["그리고 대신 채소를 더 넣어 달라고", "and add more vegetables instead", "instead"]]},
+"daily:163:15":{"ko": "기다리는 동안 친구들과 이야기하며 애피타이저를 즐겨요.", "c": [["기다리는 동안", "While waiting", "while -ing"], ["나는 친구들과 이야기해요", "I chat with my friends", "chat with"], ["그리고 애피타이저를 즐겨요", "and enjoy the appetizers", "appetizer"]]},
+"daily:163:16":{"ko": "메인 요리를 다 먹고 나서 디저트를 시켜 친구와 나눠 먹어요.", "c": [["메인 요리를 다 먹고 나서", "After finishing the main dishes", "main dish"], ["나는 디저트를 주문해요", "I order a dessert", "order"], ["그리고 친구와 그것을 나눠 먹어요", "and share it with my friend", "share"]]},
+"daily:163:17":{"ko": "친구와 저는 계산을 나눠서 각자 카드로 결제해요.", "c": [["친구와 나는 계산을 나눠서 해요", "My friend and I split the bill", "split the bill"], ["그리고 우리는 각자 카드로 결제해요", "and we each pay by card", "pay by card"]]},
+"daily:163:18":{"ko": "나가기 전에 직원에게 감사 인사를 하고 식당을 나서요.", "c": [["나가기 전에", "Before leaving", "before -ing"], ["나는 직원에게 감사 인사를 해요", "I thank the staff", "thank"], ["그리고 식당을 나서요", "and step out of the restaurant", "step out of"]]},
+"daily:184:10":{"ko": "여행 기간 날씨에 맞는 옷을 준비해요.", "c": [["나는 옷을 준비해요", "I prepare clothes", "prepare"], ["날씨에 맞는", "suitable for the weather", "suitable for"], ["여행 기간 동안의", "during my trip", "during"]]},
+"daily:184:11":{"ko": "여행을 계획하면서 친구들과 일정을 맞춰요.", "c": [["나는 친구들과 일정을 맞춰요", "I coordinate schedules with my friends", "coordinate"], ["우리 여행을 계획하면서", "while planning our trip", "plan"]]},
+"daily:184:12":{"ko": "단체 여행일 때는 호텔과 교통편을 미리 예약해요.", "c": [["단체 여행의 경우", "For group trips", "group trip"], ["나는 호텔과 교통편을 예약해요", "I book hotels and transportation", "book"], ["미리", "in advance", "in advance"]]},
+"daily:184:13":{"ko": "다른 나라로 여행 갈 때는 환전을 미리 해 둬요.", "c": [["나는 환전을 해요", "I exchange currency", "exchange currency"], ["미리", "in advance", "in advance"], ["다른 나라로 여행 갈 때는", "when I travel to another country", "travel to"]]},
+"daily:184:14":{"ko": "현지 유명 맛집을 찾아보고 어디에 갈지 정해요.", "c": [["나는 현지 유명 맛집을 찾아봐요", "I search for famous local restaurants", "search for"], ["그리고 어디에 가고 싶은지 정해요", "and decide where I want to go", "decide"]]},
+"daily:184:15":{"ko": "여행 중에 쓸 기본 현지 표현을 연습해요.", "c": [["나는 기본 현지 표현을 연습해요", "I practice basic local phrases", "phrase"], ["여행 중에 쓰려고", "to use during the trip", "during"]]},
+"daily:184:16":{"ko": "부모님께 여행 일정과 연락처를 공유해 드려요.", "c": [["나는 내 여행 일정과 연락처를 공유해요", "I share my travel schedule and contact info", "contact info"], ["부모님과", "with my parents", "parents"]]},
+"daily:184:17":{"ko": "공항까지 가는 교통편을 미리 확인하고 비행 전날 밤에는 일찍 자요.", "c": [["나는 교통편을 확인해요", "I check the transportation", "transportation"], ["공항까지 가는", "to the airport", "airport"], ["미리", "in advance", "in advance"], ["그리고 일찍 자요", "and go to bed early", "go to bed"], ["비행 전날 밤에", "the night before my flight", "the night before"]]},
+"daily:184:18":{"ko": "정말 오랜만이라서 이번 여행이 더 기대돼요.", "c": [["나는 이번 여행이 더 기대돼요", "I look forward to this trip more", "look forward to"], ["정말 오랜만이라서", "because it has been so long", "it has been"]]},
+"daily:191:18":{"ko": "하루를 잘 마무리하면 다음 날을 기분 좋게 시작할 수 있어요.", "c": [["하루를 잘 마무리하는 것은", "Ending the day well", "end the day"], ["내가 시작하도록 도와줘요", "helps me start", "help"], ["다음 날을 기분 좋게", "the next day in a good mood", "in a good mood"]]}
+}
